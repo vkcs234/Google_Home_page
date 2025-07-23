@@ -51,17 +51,20 @@ main div section:nth-child(2) img:nth-child(1){
 main div section:nth-child(2) img:nth-child(2){
     position: absolute;
     right: 85px;
-    top: 10px;
-    height: 30px;
-    width: 30px;
+    top: 15px;
+    height: 20px;
+    width: 14px;
+    filter: grayscale(100%);
+    image-rendering: crisp-edges ;
      cursor: pointer;
 }
 main div section:nth-child(2) img:nth-child(3){
     position: absolute;
-    right: 30px;
-    top: 10px;
-    height: 30px;
-    width: 30px;
+    right: 45px;
+    top: 15px;
+    height: 20px;
+    filter: grayscale(100%);
+    width: 18px;
     cursor: pointer;
 }
 aside button{
